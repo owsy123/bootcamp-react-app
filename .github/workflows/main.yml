@@ -29,7 +29,7 @@ jobs:
         # Yarn command
         cmd: install
         
-    - naem: creating build function
+    - name: creating build function
       run: yarn build
        
     - name: installing surge
